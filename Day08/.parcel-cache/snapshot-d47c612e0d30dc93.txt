@@ -1,0 +1,16 @@
+15
+56E:\.vscode\react.js\react-learning-daily\Day08\.DS_Store133938248791498907 0
+60E:\.vscode\react.js\react-learning-daily\Day08\src\Component133826267460000000 1
+51E:\.vscode\react.js\react-learning-daily\Day08\dist133938248974491175 1
+70E:\.vscode\react.js\react-learning-daily\Day08\dist\index.2cdaf7bc.css133938248911312936 0
+55E:\.vscode\react.js\react-learning-daily\Day08\first.js133938248864186360 0
+74E:\.vscode\react.js\react-learning-daily\Day08\dist\index.2cdaf7bc.css.map133938248958762740 0
+57E:\.vscode\react.js\react-learning-daily\Day08\index.html133825257980000000 0
+59E:\.vscode\react.js\react-learning-daily\Day08\package.json133938258561193943 0
+64E:\.vscode\react.js\react-learning-daily\Day08\package-lock.json133938248816539718 0
+50E:\.vscode\react.js\react-learning-daily\Day08\src133938248991297181 1
+58E:\.vscode\react.js\react-learning-daily\Day08\src\main.js133938248989826027 0
+60E:\.vscode\react.js\react-learning-daily\Day08\src\style.css133938248990670325 0
+69E:\.vscode\react.js\react-learning-daily\Day08\dist\index.4d6bcbeb.js133938248935116676 0
+73E:\.vscode\react.js\react-learning-daily\Day08\dist\index.4d6bcbeb.js.map133938248974791660 0
+62E:\.vscode\react.js\react-learning-daily\Day08\dist\index.html133938248888191845 0

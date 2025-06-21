@@ -14,4 +14,3 @@ Welcome! This repo tracks my day-by-day React learning progress.
 - ✅ [Day 9](day9)
 - ✅ [Day 10](day10)
 - ✅ [Day 11](day11)
-- ✅ [Day 12](day12)

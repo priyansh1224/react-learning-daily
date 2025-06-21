@@ -1,0 +1,11 @@
+10
+60E:\.vscode\react.js\react-learning-daily\Day07\src\Component133936520493656889 1
+56E:\.vscode\react.js\react-learning-daily\Day07\readme.md133936520486723951 0
+56E:\.vscode\react.js\react-learning-daily\Day07\.DS_Store133936520485263782 0
+57E:\.vscode\react.js\react-learning-daily\Day07\index.html133936520483356849 0
+58E:\.vscode\react.js\react-learning-daily\Day07\src\main.js133936520490476678 0
+64E:\.vscode\react.js\react-learning-daily\Day07\package-lock.json133936520488180887 0
+59E:\.vscode\react.js\react-learning-daily\Day07\package.json133937363066065530 0
+50E:\.vscode\react.js\react-learning-daily\Day07\src133936520493539249 1
+60E:\.vscode\react.js\react-learning-daily\Day07\src\style.css133936520491719930 0
+72E:\.vscode\react.js\react-learning-daily\Day07\src\Component\Colorful.js133936520493733472 0
