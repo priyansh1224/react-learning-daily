@@ -1,42 +1,40 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom/client"
-import stores from "./stores";
+import { useEffect } from "react";
+import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
+import stores from "./stores";
 import CoinCreate from "./CoinCreate";
 
-
-function App(){
-
-    return (
-       <Provider store={stores}>
-        <CoinCreate></CoinCreate>
-       </Provider>
-    )
+function App() {
+  return (
+    <Provider store={stores}>
+      <CoinCreate />
+    </Provider>
+  );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App></App>);
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);
 
-
-
-
-// function Fetchuser(){
-//     useEffect(async ()=>{
+// Example of how your Fetchuser component might look
+function Fetchuser() {
+  const dispatch = useDispatch();
+  
+  useEffect(() => {
+    const fetchData = async () => {
+      dispatch(LoadingData(true));
+      try {
+        const response = await fetch("Github User Info");
+        const data = await response.json();
+        dispatch(UpdateData(data));
+      } catch(error) {
+        dispatch(ErrorData("Error Occurred"));
+      } finally {
+        dispatch(LoadingData(false));
+      }
+    };
     
-//      dispatch(LoadingData(true));
-//       try{
-//        const response = await fetch("Github User Info");
-//        const da = await response.json();
-//        dispatch(UpdateData(da));
-//       }
-//       catch(error){
-//         dispatch(ErrorData("Error Occured"));
-//       }      
-//     })
-// }
+    fetchData();
+  }, [dispatch]);
 
-// Object:{type: 'slice/LoadingData', payload:true};
-// {type: 'slice/UpdateData', payload:da};
-// {type: 'slice/ErrorData', payload:"Error Occured"};
-
-// Ek aur koi component ho, usko bhi fetch request:
-// Ek aur component bana diya:
+  return null; // or your JSX
+}

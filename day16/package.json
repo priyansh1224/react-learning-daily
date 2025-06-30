@@ -1,7 +1,6 @@
 {
   "name": "day16",
   "version": "1.0.0",
-  "main": "first.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +9,8 @@
   "description": "",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-redux": "^9.2.0"
   },
   "devDependencies": {
